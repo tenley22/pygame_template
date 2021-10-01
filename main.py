@@ -36,7 +36,7 @@ while running:
 
     pygame.display.flip()
 
-    screen.fill(BLACK)
+    screen.fill(PURPLE)
 
     clock.tick(FPS)
 
