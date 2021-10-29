@@ -34,9 +34,9 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    pygame.display.flip()
-
     screen.fill(PURPLE)
+    
+    pygame.display.flip()
 
     clock.tick(FPS)
 
